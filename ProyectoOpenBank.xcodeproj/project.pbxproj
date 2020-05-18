@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA16C09D083724146E5C8E3 /* Pods_ProyectoOpenBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4425563DA181C59A9EAA74 /* Pods_ProyectoOpenBankTests.framework */; };
+		B2479929B9602F1A3057B216 /* Pods_ProyectoOpenBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0D03B80A05B5B0DB9CD9A9 /* Pods_ProyectoOpenBank.framework */; };
+		BCF706EFB1DEBE22EF8306E0 /* Pods_ProyectoOpenBank_ProyectoOpenBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C7BE7BDC382F06B205F1A9 /* Pods_ProyectoOpenBank_ProyectoOpenBankUITests.framework */; };
+		E02FCED72471A196008F5087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCED62471A196008F5087 /* AppDelegate.swift */; };
+		E02FCED92471A196008F5087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCED82471A196008F5087 /* SceneDelegate.swift */; };
+		E02FCEDB2471A196008F5087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCEDA2471A196008F5087 /* ViewController.swift */; };
+		E02FCEDE2471A196008F5087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02FCEDC2471A196008F5087 /* Main.storyboard */; };
+		E02FCEE02471A197008F5087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02FCEDF2471A197008F5087 /* Assets.xcassets */; };
+		E02FCEE32471A197008F5087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02FCEE12471A197008F5087 /* LaunchScreen.storyboard */; };
+		E02FCEEE2471A197008F5087 /* ProyectoOpenBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCEED2471A197008F5087 /* ProyectoOpenBankTests.swift */; };
+		E02FCEF92471A197008F5087 /* ProyectoOpenBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCEF82471A197008F5087 /* ProyectoOpenBankUITests.swift */; };
+		E02FCF072471A232008F5087 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCF062471A232008F5087 /* NetworkManager.swift */; };
+		E02FCF0B2471EF6D008F5087 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCF0A2471EF6D008F5087 /* CustomCell.swift */; };
+		E02FCF0D2471F377008F5087 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCF0C2471F377008F5087 /* DetailViewController.swift */; };
+		E02FCF0F24729812008F5087 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCF0E24729812008F5087 /* Model.swift */; };
+		E02FCF1124729D84008F5087 /* UIViewControllerExternsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCF1024729D84008F5087 /* UIViewControllerExternsions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E02FCEEA2471A197008F5087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02FCECB2471A196008F5087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02FCED22471A196008F5087;
+			remoteInfo = ProyectoOpenBank;
+		};
+		E02FCEF52471A197008F5087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02FCECB2471A196008F5087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02FCED22471A196008F5087;
+			remoteInfo = ProyectoOpenBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE66A75DA4E31A33258A525 /* Pods-ProyectoOpenBank-ProyectoOpenBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoOpenBank-ProyectoOpenBankUITests.release.xcconfig"; path = "Target Support Files/Pods-ProyectoOpenBank-ProyectoOpenBankUITests/Pods-ProyectoOpenBank-ProyectoOpenBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26C64D31AD490BBC5E5F8D13 /* Pods-ProyectoOpenBank-ProyectoOpenBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoOpenBank-ProyectoOpenBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoOpenBank-ProyectoOpenBankUITests/Pods-ProyectoOpenBank-ProyectoOpenBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A2462C284D4BAABE0348EDE /* Pods-ProyectoOpenBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoOpenBankTests.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoOpenBankTests/Pods-ProyectoOpenBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91C7BE7BDC382F06B205F1A9 /* Pods_ProyectoOpenBank_ProyectoOpenBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoOpenBank_ProyectoOpenBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AE263A1FAA013F031C73A8 /* Pods-ProyectoOpenBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoOpenBank.release.xcconfig"; path = "Target Support Files/Pods-ProyectoOpenBank/Pods-ProyectoOpenBank.release.xcconfig"; sourceTree = "<group>"; };
+		9CDD3253202725EBCBD1D27F /* Pods-ProyectoOpenBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoOpenBank.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoOpenBank/Pods-ProyectoOpenBank.debug.xcconfig"; sourceTree = "<group>"; };
+		A4763499AE5ECF323DD0494F /* Pods-ProyectoOpenBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoOpenBankTests.release.xcconfig"; path = "Target Support Files/Pods-ProyectoOpenBankTests/Pods-ProyectoOpenBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		E02FCED32471A196008F5087 /* ProyectoOpenBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoOpenBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02FCED62471A196008F5087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E02FCED82471A196008F5087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E02FCEDA2471A196008F5087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E02FCEDD2471A196008F5087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E02FCEDF2471A197008F5087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E02FCEE22471A197008F5087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E02FCEE42471A197008F5087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02FCEE92471A197008F5087 /* ProyectoOpenBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoOpenBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02FCEED2471A197008F5087 /* ProyectoOpenBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoOpenBankTests.swift; sourceTree = "<group>"; };
+		E02FCEEF2471A197008F5087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02FCEF42471A197008F5087 /* ProyectoOpenBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoOpenBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02FCEF82471A197008F5087 /* ProyectoOpenBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoOpenBankUITests.swift; sourceTree = "<group>"; };
+		E02FCEFA2471A197008F5087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02FCF062471A232008F5087 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E02FCF0A2471EF6D008F5087 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E02FCF0C2471F377008F5087 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E02FCF0E24729812008F5087 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E02FCF1024729D84008F5087 /* UIViewControllerExternsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExternsions.swift; sourceTree = "<group>"; };
+		EF4425563DA181C59A9EAA74 /* Pods_ProyectoOpenBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoOpenBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0D03B80A05B5B0DB9CD9A9 /* Pods_ProyectoOpenBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoOpenBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02FCED02471A196008F5087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2479929B9602F1A3057B216 /* Pods_ProyectoOpenBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02FCEE62471A197008F5087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA16C09D083724146E5C8E3 /* Pods_ProyectoOpenBankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02FCEF12471A197008F5087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF706EFB1DEBE22EF8306E0 /* Pods_ProyectoOpenBank_ProyectoOpenBankUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F0A00CBF5CC8A4DE4F4582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D03B80A05B5B0DB9CD9A9 /* Pods_ProyectoOpenBank.framework */,
+				91C7BE7BDC382F06B205F1A9 /* Pods_ProyectoOpenBank_ProyectoOpenBankUITests.framework */,
+				EF4425563DA181C59A9EAA74 /* Pods_ProyectoOpenBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD8DB6B6ED41A2CC14156D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CDD3253202725EBCBD1D27F /* Pods-ProyectoOpenBank.debug.xcconfig */,
+				93AE263A1FAA013F031C73A8 /* Pods-ProyectoOpenBank.release.xcconfig */,
+				26C64D31AD490BBC5E5F8D13 /* Pods-ProyectoOpenBank-ProyectoOpenBankUITests.debug.xcconfig */,
+				1BE66A75DA4E31A33258A525 /* Pods-ProyectoOpenBank-ProyectoOpenBankUITests.release.xcconfig */,
+				5A2462C284D4BAABE0348EDE /* Pods-ProyectoOpenBankTests.debug.xcconfig */,
+				A4763499AE5ECF323DD0494F /* Pods-ProyectoOpenBankTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E02FCECA2471A196008F5087 = {
+			isa = PBXGroup;
+			children = (
+				E02FCED52471A196008F5087 /* ProyectoOpenBank */,
+				E02FCEEC2471A197008F5087 /* ProyectoOpenBankTests */,
+				E02FCEF72471A197008F5087 /* ProyectoOpenBankUITests */,
+				E02FCED42471A196008F5087 /* Products */,
+				ACD8DB6B6ED41A2CC14156D9 /* Pods */,
+				56F0A00CBF5CC8A4DE4F4582 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E02FCED42471A196008F5087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02FCED32471A196008F5087 /* ProyectoOpenBank.app */,
+				E02FCEE92471A197008F5087 /* ProyectoOpenBankTests.xctest */,
+				E02FCEF42471A197008F5087 /* ProyectoOpenBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E02FCED52471A196008F5087 /* ProyectoOpenBank */ = {
+			isa = PBXGroup;
+			children = (
+				E02FCED62471A196008F5087 /* AppDelegate.swift */,
+				E02FCED82471A196008F5087 /* SceneDelegate.swift */,
+				E02FCEDA2471A196008F5087 /* ViewController.swift */,
+				E02FCEDC2471A196008F5087 /* Main.storyboard */,
+				E02FCEDF2471A197008F5087 /* Assets.xcassets */,
+				E02FCEE12471A197008F5087 /* LaunchScreen.storyboard */,
+				E02FCEE42471A197008F5087 /* Info.plist */,
+				E02FCF062471A232008F5087 /* NetworkManager.swift */,
+				E02FCF0A2471EF6D008F5087 /* CustomCell.swift */,
+				E02FCF0C2471F377008F5087 /* DetailViewController.swift */,
+				E02FCF0E24729812008F5087 /* Model.swift */,
+				E02FCF1024729D84008F5087 /* UIViewControllerExternsions.swift */,
+			);
+			path = ProyectoOpenBank;
+			sourceTree = "<group>";
+		};
+		E02FCEEC2471A197008F5087 /* ProyectoOpenBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				E02FCEED2471A197008F5087 /* ProyectoOpenBankTests.swift */,
+				E02FCEEF2471A197008F5087 /* Info.plist */,
+			);
+			path = ProyectoOpenBankTests;
+			sourceTree = "<group>";
+		};
+		E02FCEF72471A197008F5087 /* ProyectoOpenBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E02FCEF82471A197008F5087 /* ProyectoOpenBankUITests.swift */,
+				E02FCEFA2471A197008F5087 /* Info.plist */,
+			);
+			path = ProyectoOpenBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02FCED22471A196008F5087 /* ProyectoOpenBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02FCEFD2471A197008F5087 /* Build configuration list for PBXNativeTarget "ProyectoOpenBank" */;
+			buildPhases = (
+				EC76670150769C7F8CBE7560 /* [CP] Check Pods Manifest.lock */,
+				E02FCECF2471A196008F5087 /* Sources */,
+				E02FCED02471A196008F5087 /* Frameworks */,
+				E02FCED12471A196008F5087 /* Resources */,
+				99DA143F9065C90CCC6014DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoOpenBank;
+			productName = ProyectoOpenBank;
+			productReference = E02FCED32471A196008F5087 /* ProyectoOpenBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E02FCEE82471A197008F5087 /* ProyectoOpenBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02FCF002471A197008F5087 /* Build configuration list for PBXNativeTarget "ProyectoOpenBankTests" */;
+			buildPhases = (
+				0A39958264C72926D853BEF7 /* [CP] Check Pods Manifest.lock */,
+				E02FCEE52471A197008F5087 /* Sources */,
+				E02FCEE62471A197008F5087 /* Frameworks */,
+				E02FCEE72471A197008F5087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02FCEEB2471A197008F5087 /* PBXTargetDependency */,
+			);
+			name = ProyectoOpenBankTests;
+			productName = ProyectoOpenBankTests;
+			productReference = E02FCEE92471A197008F5087 /* ProyectoOpenBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E02FCEF32471A197008F5087 /* ProyectoOpenBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02FCF032471A197008F5087 /* Build configuration list for PBXNativeTarget "ProyectoOpenBankUITests" */;
+			buildPhases = (
+				82B060A14AE2AB2CA59744F8 /* [CP] Check Pods Manifest.lock */,
+				E02FCEF02471A197008F5087 /* Sources */,
+				E02FCEF12471A197008F5087 /* Frameworks */,
+				E02FCEF22471A197008F5087 /* Resources */,
+				4942BC55A79413C1529A82B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02FCEF62471A197008F5087 /* PBXTargetDependency */,
+			);
+			name = ProyectoOpenBankUITests;
+			productName = ProyectoOpenBankUITests;
+			productReference = E02FCEF42471A197008F5087 /* ProyectoOpenBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E02FCECB2471A196008F5087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Juan Jimenez de Muñana Rivas";
+				TargetAttributes = {
+					E02FCED22471A196008F5087 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E02FCEE82471A197008F5087 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E02FCED22471A196008F5087;
+					};
+					E02FCEF32471A197008F5087 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E02FCED22471A196008F5087;
+					};
+				};
+			};
+			buildConfigurationList = E02FCECE2471A196008F5087 /* Build configuration list for PBXProject "ProyectoOpenBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02FCECA2471A196008F5087;
+			productRefGroup = E02FCED42471A196008F5087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02FCED22471A196008F5087 /* ProyectoOpenBank */,
+				E02FCEE82471A197008F5087 /* ProyectoOpenBankTests */,
+				E02FCEF32471A197008F5087 /* ProyectoOpenBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02FCED12471A196008F5087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02FCEE32471A197008F5087 /* LaunchScreen.storyboard in Resources */,
+				E02FCEE02471A197008F5087 /* Assets.xcassets in Resources */,
+				E02FCEDE2471A196008F5087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02FCEE72471A197008F5087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02FCEF22471A197008F5087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A39958264C72926D853BEF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoOpenBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4942BC55A79413C1529A82B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoOpenBank-ProyectoOpenBankUITests/Pods-ProyectoOpenBank-ProyectoOpenBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoOpenBank-ProyectoOpenBankUITests/Pods-ProyectoOpenBank-ProyectoOpenBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoOpenBank-ProyectoOpenBankUITests/Pods-ProyectoOpenBank-ProyectoOpenBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B060A14AE2AB2CA59744F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoOpenBank-ProyectoOpenBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DA143F9065C90CCC6014DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoOpenBank/Pods-ProyectoOpenBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoOpenBank/Pods-ProyectoOpenBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoOpenBank/Pods-ProyectoOpenBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC76670150769C7F8CBE7560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoOpenBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02FCECF2471A196008F5087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02FCF0F24729812008F5087 /* Model.swift in Sources */,
+				E02FCF1124729D84008F5087 /* UIViewControllerExternsions.swift in Sources */,
+				E02FCF072471A232008F5087 /* NetworkManager.swift in Sources */,
+				E02FCEDB2471A196008F5087 /* ViewController.swift in Sources */,
+				E02FCED72471A196008F5087 /* AppDelegate.swift in Sources */,
+				E02FCF0B2471EF6D008F5087 /* CustomCell.swift in Sources */,
+				E02FCED92471A196008F5087 /* SceneDelegate.swift in Sources */,
+				E02FCF0D2471F377008F5087 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02FCEE52471A197008F5087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02FCEEE2471A197008F5087 /* ProyectoOpenBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02FCEF02471A197008F5087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02FCEF92471A197008F5087 /* ProyectoOpenBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E02FCEEB2471A197008F5087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02FCED22471A196008F5087 /* ProyectoOpenBank */;
+			targetProxy = E02FCEEA2471A197008F5087 /* PBXContainerItemProxy */;
+		};
+		E02FCEF62471A197008F5087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02FCED22471A196008F5087 /* ProyectoOpenBank */;
+			targetProxy = E02FCEF52471A197008F5087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E02FCEDC2471A196008F5087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02FCEDD2471A196008F5087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E02FCEE12471A197008F5087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02FCEE22471A197008F5087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E02FCEFB2471A197008F5087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E02FCEFC2471A197008F5087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02FCEFE2471A197008F5087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDD3253202725EBCBD1D27F /* Pods-ProyectoOpenBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK8PP3SY2;
+				INFOPLIST_FILE = ProyectoOpenBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yo.ProyectoOpenBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E02FCEFF2471A197008F5087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AE263A1FAA013F031C73A8 /* Pods-ProyectoOpenBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK8PP3SY2;
+				INFOPLIST_FILE = ProyectoOpenBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yo.ProyectoOpenBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E02FCF012471A197008F5087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2462C284D4BAABE0348EDE /* Pods-ProyectoOpenBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK8PP3SY2;
+				INFOPLIST_FILE = ProyectoOpenBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yo.ProyectoOpenBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoOpenBank.app/ProyectoOpenBank";
+			};
+			name = Debug;
+		};
+		E02FCF022471A197008F5087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4763499AE5ECF323DD0494F /* Pods-ProyectoOpenBankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK8PP3SY2;
+				INFOPLIST_FILE = ProyectoOpenBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yo.ProyectoOpenBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoOpenBank.app/ProyectoOpenBank";
+			};
+			name = Release;
+		};
+		E02FCF042471A197008F5087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C64D31AD490BBC5E5F8D13 /* Pods-ProyectoOpenBank-ProyectoOpenBankUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK8PP3SY2;
+				INFOPLIST_FILE = ProyectoOpenBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yo.ProyectoOpenBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoOpenBank;
+			};
+			name = Debug;
+		};
+		E02FCF052471A197008F5087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE66A75DA4E31A33258A525 /* Pods-ProyectoOpenBank-ProyectoOpenBankUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK8PP3SY2;
+				INFOPLIST_FILE = ProyectoOpenBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yo.ProyectoOpenBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoOpenBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02FCECE2471A196008F5087 /* Build configuration list for PBXProject "ProyectoOpenBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02FCEFB2471A197008F5087 /* Debug */,
+				E02FCEFC2471A197008F5087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02FCEFD2471A197008F5087 /* Build configuration list for PBXNativeTarget "ProyectoOpenBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02FCEFE2471A197008F5087 /* Debug */,
+				E02FCEFF2471A197008F5087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02FCF002471A197008F5087 /* Build configuration list for PBXNativeTarget "ProyectoOpenBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02FCF012471A197008F5087 /* Debug */,
+				E02FCF022471A197008F5087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02FCF032471A197008F5087 /* Build configuration list for PBXNativeTarget "ProyectoOpenBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02FCF042471A197008F5087 /* Debug */,
+				E02FCF052471A197008F5087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E02FCECB2471A196008F5087 /* Project object */;
+}
